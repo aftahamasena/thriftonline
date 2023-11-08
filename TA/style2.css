@@ -1,0 +1,199 @@
+:root {
+    --bg: #f8f8f8;
+    --primary: #5c3a0b;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg);
+    align-items: center;
+    background-color: var(--bg);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: #000000;
+    border-bottom: 1px solid #333231;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar a {
+    font-size: 1.4rem;
+    font-style: italic;
+    color: #f9f9f9;
+}
+
+.navbar span {
+    color: var(--primary);
+}
+
+.navco i {
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.navco span {
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    color: #f8f8f8;
+    margin-left: 10px;
+}
+
+.address {
+    background-color: #ffffff;
+    margin-top: 6rem;
+    border: 2px solid rgb(189, 189, 189);
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.address .left {
+    border-right: 1px solid #8a8a8a;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.top {
+    display: flex;
+}
+
+.top span {
+    margin-left: 5px;
+    color: var(--primary);
+}
+
+
+.isi {
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.pro {
+    background-color: #ffffff;
+    margin-top: 1.5rem;
+    border: 2px solid rgb(189, 189, 189);
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.top .logo {
+    color: var(--primary);
+}
+
+.showpro {
+    margin-top: 1rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.showpro th,
+.showpro td {
+    padding: 10px;
+    text-align: center;
+}
+
+.showpro th {
+    color: #898989;
+    font-weight: bold;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.co {
+    background-color: #ffffff;
+    margin-top: 1.5rem;
+    border: 2px solid rgb(189, 189, 189);
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.tableco {
+    display: flex;
+    width: 20%;
+    margin-left: 1.4rem;
+    margin-bottom: 1.3rem;
+}
+
+.tableco thead {
+    flex: 1;
+}
+
+.tableco th {
+    text-align: left;
+}
+
+.tableco td {
+    text-align: right;
+}
+
+.tableco tbody {
+    flex: 0;
+}
+
+.tableco .border {
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+.tableco tr {
+    margin-bottom: 50px;
+}
+
+.saldo {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.saldo span {
+    font-family: sans-serif;
+    color: rgb(125, 125, 125);
+}
+
+.tableco th,
+.tableco td {
+    text-align: left;
+}
+
+.pro .btn-beli {
+    display: inline-block;
+    padding: 4px 12px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.pro .btn-beli:hover {
+    transform: scale(1.02);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
